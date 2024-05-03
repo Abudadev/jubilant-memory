@@ -1,0 +1,56 @@
+/* Other*/
+
+#Tools{
+    float: left;
+    display: inline;
+    width: 250px;
+    background-color: gray;
+}
+
+body{
+    background-color: rgb(85, 85, 240);
+}
+
+
+canvas{
+    background-color: white;
+}
+
+/* Color button style code*/
+
+.space{
+    margin-top: 10px;
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    background-color: black;
+}
+
+.grey{
+    background-color: grey;
+    border: black 2px solid;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.indigo{
+    background-color: indigo;
+}
+
+.violet{
+    background-color: violet;
+}

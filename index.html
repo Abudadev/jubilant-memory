@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Painting it!</title>
+</head>
+<body>
+
+    <div  id="Tools">
+        <ol style="list-style: none;">
+            <!--Tools-->
+            <li><button class="btn btn-success space" onclick="brush()" id="brush">Brush</button></li>
+
+            <li><button class="btn btn-success space" onclick="bigbrush()" id="bigbrush">Big brush</button></li>
+
+            <li><button class="btn btn-success space" onclick="pencil();" id="pencil">Pencil</button></li>
+
+            <li><button class="btn btn-success space" onclick="dotter();" id="dotter">Dotter</button></li>
+
+            <li><button class="btn btn-warning space" onclick="eraser()"  id="eraser">Eraser</button></li>
+
+            <li><button class="btn btn-danger space" onclick="Clear()">Clear</button></li>
+            <!--Tools end-->
+            </ol>
+
+            <hr>
+
+            <ol style="list-style: none;">
+            <!--Colors-->
+            <li><button class="btn btn-danger space" onclick="Red();"> </button></li>
+
+            <li><button class="btn btn-warning space" onclick="Orange();"> </button></li>
+
+            <li><button class="btn yellow space" onclick="Yellow();"> </button></li>
+
+            <li><button class="btn btn-success space" onclick="Green();"> </button></li>
+
+            <li><button class="btn btn-primary space" onclick="Blue();"> </button></li>
+
+            <li><button class="btn indigo space" onclick="Indigo();"> </button></li>
+
+            <li><button class="btn violet space" onclick="Violet();"> </button></li>
+
+            <li><button class="btn pink space" onclick="Pink();"> </button></li>
+
+            <li><button class="btn grey space" onclick="Grey();"> </button></li>
+
+            <li><button class="btn white space" onclick="White();"> </button></li>
+
+            <li><button class="btn black space" onclick="Black();"> </button></li>
+
+            <li><button class="btn brown space" onclick="Brown();"> </button></li>
+            <!--Colors end-->
+            </ol>
+
+            <hr>
+            <section style="margin-left: 35px;">
+                <p><b>you have to color the images yourself</b></p>
+                <select name="GI" id="AGI">
+                    <optgroup label="Animals">
+                        <option value="Cat">Cat</option>
+                        <option value="Dog">Dog</option>
+                        <option value="Fish">Fish</option>
+                    </optgroup>
+                    <br>
+                    <optgroup label="Furniture">
+                    <option value="Oven">Oven</option>
+                    <option value="Pot">Flower pot</option>
+                    <option value="Chair">Chair</option>
+                    </optgroup>
+                </select>
+                <br>
+                <br>
+                <button class="btn btn-success" onclick="generate();">Generate</button>
+            </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
